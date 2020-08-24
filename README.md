@@ -1,3 +1,9 @@
+A single page site to support Colorado's bill to reintroduce wolves.
+
+# Contributing
+
+Fork and clone the repo. Follow [gatsbyjs.com](gatsbyjs.com) to ensure Gatsby CLI is installed in your environment.
+
 # Gatsby Starter Tailwind
 
 [![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors)
