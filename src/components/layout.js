@@ -3,6 +3,8 @@ import React from "react";
 
 import Header from "./header";
 
+// Ugh I'm so tired, how is this working?
+
 function Layout({ children }) {
   return (
     <div className="flex flex-col min-h-screen font-sans text-gray-900">
