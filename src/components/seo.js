@@ -3,6 +3,8 @@ import PropTypes from "prop-types";
 import React from "react";
 import { Helmet } from "react-helmet";
 
+// How to optimize SEO?
+
 function SEO({ description, lang, meta, keywords, title }) {
   const { site } = useStaticQuery(graphql`
     query DefaultSEOQuery {
