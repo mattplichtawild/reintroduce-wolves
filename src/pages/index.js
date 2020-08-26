@@ -11,7 +11,7 @@ function IndexPage() {
         keywords={[`wolf`, `reintroduction`, `Colorado`, `prop`, `114`]}
         title="Home"
       />
-      
+      {/* <div className="bg-cover bg-center" style={{backgroundImage: `url(${wolfPackPicture})`}}></div> */}
       <img
           alt="Wolves running through wilderness."
           className="bg-cover bg-center"
