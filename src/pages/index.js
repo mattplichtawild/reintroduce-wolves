@@ -2,7 +2,7 @@ import React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import catAndHumanIllustration from "../images/cat-and-human-illustration.svg";
+import wolfPackPicture from "../images/wolf1-4x3.png";
 
 function IndexPage() {
   return (
@@ -14,9 +14,9 @@ function IndexPage() {
 
       <section className="text-center">
         <img
-          alt="Cat and human sitting on a couch"
-          className="block w-1/2 mx-auto mb-8"
-          src={catAndHumanIllustration}
+          alt="Wolves running through wilderness."
+          className="bg-cover"
+          src={wolfPackPicture}
         />
 
         <h2 className="inline-block p-3 mb-4 text-2xl font-bold bg-yellow-400">
