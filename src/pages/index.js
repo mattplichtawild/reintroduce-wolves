@@ -35,7 +35,7 @@ function IndexPage() {
           Section with bullet points about Prop 114
         </h2>
 
-        <div className="grid grid-cols-2 gap-5 flex-auto text-xl">
+        <div className="grid gap-5 grid-cols-2 flex-auto text-xl">
           <ul className="list-none">
             <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
             <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
