@@ -18,23 +18,35 @@ function IndexPage() {
           src={wolfPackPicture}
       />
       
-      <section className="text-center">
-        <h2 className="inline-block p-3 mb-4 text-2xl font-bold bg-yellow-400">
-          Hey there! Welcome to your first Gatsby site.
+      <section className="text-center px-8 py-6">
+        <h2 className="inline-block p-3 mb-4 text-2xl font-bold">
+          Restore Colorado to its natural beauty.
         </h2>
 
-        <p className="leading-loose">
-          This is a barebones starter for Gatsby styled using{` `}
-          <a
-            className="font-bold text-gray-900 no-underline"
-            href="https://tailwindcss.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Tailwind CSS
-          </a>
-          , a utility-first CSS framework.
+        <p className="leading-loose md:text-lg lg:text-xl font-sans mb-4">
+          As Coloradans, we pride ourselves on the natural beauty of the state. 
+          <br/>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
+      </section>
+
+      <section className="text-center px-8 py-6">
+        <h2 className="inline-block p-3 mb-4 text-2xl font-bold">
+          Section with bullet points about Prop 114
+        </h2>
+
+        <div className="grid grid-cols-2 gap-5 flex-auto text-xl">
+          <ul className="list-none">
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+          </ul>
+          <ul className="list-none">
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
+          </ul>
+        </div>
       </section>
     </Layout>
   );
