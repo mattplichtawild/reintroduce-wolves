@@ -49,9 +49,9 @@ function IndexPage() {
         </div>
       </section>
       <section className="text-center">
-        <h2>Proven Success in Yellowstone</h2>
+        <h2 className="inline-block p-3 mb-4 text-2xl font-bold">Proven Success in Yellowstone</h2>
 
-        <div className="grid grid-cols-2">
+        <div className="grid grid-cols-2 text-lg">
           <p>This will be a paragraph</p>
           <p>This could be a picture of a map or something</p>
         </div>
