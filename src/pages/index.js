@@ -48,6 +48,14 @@ function IndexPage() {
           </ul>
         </div>
       </section>
+      <section className="text-center">
+        <h2>Proven Success in Yellowstone</h2>
+
+        <div className="grid grid-cols-2">
+          <p>This will be a paragraph</p>
+          <p>This could be a picture of a map or something</p>
+        </div>
+      </section>
     </Layout>
   );
 }
