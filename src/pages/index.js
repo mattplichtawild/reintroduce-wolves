@@ -54,11 +54,14 @@ function IndexPage() {
         <div className="grid grid-cols-2 text-lg">
           <p>This will be a paragraph</p>
           <p>This could be a picture of a map or something</p>
+          <p>Here will be a picture</p>
+          <p>This will be a paragraph</p>
         </div>
       </section>
 
       <section className="text-center">
         {/* section with text cards, each will have fact with link to further info*/}
+        {/* Have at least 3 text cards, do 6 if possible */}
         <h2 className="inline-block p-3 mb-4 text-3xl font-bold">The facts of wolf reintroduction</h2>
         <div>
 
