@@ -67,6 +67,15 @@ function IndexPage() {
 
         </div>
       </section>
+
+      <section className="text-center">
+        {/* Section with quotes from experts who support reintroduction */}
+
+      </section>
+
+      <section className="text-center">
+        {/* List of organizations that support reintroduction? */}
+      </section>
     </Layout>
   );
 }
