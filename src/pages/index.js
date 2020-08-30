@@ -56,6 +56,14 @@ function IndexPage() {
           <p>This could be a picture of a map or something</p>
         </div>
       </section>
+
+      <section>
+        {/* section with text cards, each will have fact with link to further info*/}
+        <h2>The facts of wolf reintroduction</h2>
+        <div>
+          
+        </div>
+      </section>
     </Layout>
   );
 }
