@@ -19,20 +19,14 @@ function IndexPage() {
       />
       <div className="px-32">
       <section className="text-center py-6">
-        <h2 className="inline-block py-3 mb-4 text-2xl font-bold">
-          Restore Colorado to its natural beauty.
-        </h2>
-
         <p className="leading-loose md:text-lg lg:text-xl font-sans mb-4">
-          As Coloradans, we pride ourselves on the natural beauty of the state. 
-          <br/>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          As Coloradans, we pride ourselves on the natural beauty of the state. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </p>
       </section>
 
       <section className="text-center py-6">
         <h2 className="inline-block py-3 mb-4 text-2xl font-bold">
-          Facts about Proposition 114
+          About Proposition 114
         </h2>
 
         <div className="grid gap-5 grid-cols-2 flex-auto text-2xl">
@@ -50,17 +44,18 @@ function IndexPage() {
           </ul>
         </div>
       </section>
-      <section className="text-center">
+      
+      <section className="text-center py-6">
         <h2 className="inline-block py-3 mb-4 text-3xl font-bold">Proven Success in Yellowstone</h2>
 
-        <div className="grid grid-cols-2 text-lg">
+        <div className="grid grid-cols-2 text-lg bg-white bg-opacity-100">
           <p>This will be a paragraph</p>
           <p>This could be a picture of a map or something</p>
           <p>Here will be a picture</p>
           <p>This will be a paragraph</p>
         </div>
       </section>
-
+      
       <section className="text-center">
         {/* section with text cards, each will have fact with link to further info*/}
         {/* Have at least 3 text cards, do 6 if possible */}
