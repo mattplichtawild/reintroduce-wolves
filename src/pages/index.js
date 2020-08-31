@@ -48,11 +48,18 @@ function IndexPage() {
       <section className="text-center py-6">
         <h2 className="inline-block py-3 mb-4 text-3xl font-bold">Proven Success in Yellowstone</h2>
 
-        <div className="grid grid-cols-2 text-lg bg-white bg-opacity-100">
+        <div className="flex flex-wrap">
+          <div className="w-1/2 sm:w">
           <p>This will be a paragraph</p>
-          <p>This could be a picture of a map or something</p>
+          </div>
+          <div className="w-1/2">
           <p>Here will be a picture</p>
+
+          </div>
+          <div>
           <p>This will be a paragraph</p>
+
+          </div>
         </div>
       </section>
       
