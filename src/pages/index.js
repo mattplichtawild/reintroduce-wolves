@@ -17,7 +17,7 @@ function IndexPage() {
           className="bg-cover bg-center"
           src={wolfPackPicture}
       />
-      <div className="px-24">
+      <div className="px-32">
       <section className="text-center py-6">
         <h2 className="inline-block py-3 mb-4 text-2xl font-bold">
           Restore Colorado to its natural beauty.
@@ -32,16 +32,18 @@ function IndexPage() {
 
       <section className="text-center py-6">
         <h2 className="inline-block py-3 mb-4 text-2xl font-bold">
-          Section with bullet points about Prop 114
+          Facts about Proposition 114
         </h2>
 
-        <div className="grid gap-5 grid-cols-2 flex-auto text-xl">
-          <ul className="list-none grid gap-6">
+        <div className="grid gap-5 grid-cols-2 flex-auto text-2xl">
+          <ul className="list grid gap-8">
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
             <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
             <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
             <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
           </ul>
-          <ul className="list-none grid gap-6">
+          <ul className="list grid gap-8">
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
             <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
             <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
             <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
