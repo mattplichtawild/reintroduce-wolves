@@ -17,9 +17,9 @@ function IndexPage() {
           className="bg-cover bg-center"
           src={wolfPackPicture}
       />
-      
-      <section className="text-center px-8 py-6">
-        <h2 className="inline-block p-3 mb-4 text-2xl font-bold">
+      <div className="px-24">
+      <section className="text-center py-6">
+        <h2 className="inline-block py-3 mb-4 text-2xl font-bold">
           Restore Colorado to its natural beauty.
         </h2>
 
@@ -30,18 +30,18 @@ function IndexPage() {
         </p>
       </section>
 
-      <section className="text-center px-8 py-6">
-        <h2 className="inline-block p-3 mb-4 text-2xl font-bold">
+      <section className="text-center py-6">
+        <h2 className="inline-block py-3 mb-4 text-2xl font-bold">
           Section with bullet points about Prop 114
         </h2>
 
         <div className="grid gap-5 grid-cols-2 flex-auto text-xl">
-          <ul className="list-none">
+          <ul className="list-none grid gap-6">
             <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
             <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
             <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
           </ul>
-          <ul className="list-none">
+          <ul className="list-none grid gap-6">
             <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
             <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
             <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>
@@ -49,7 +49,7 @@ function IndexPage() {
         </div>
       </section>
       <section className="text-center">
-        <h2 className="inline-block p-3 mb-4 text-3xl font-bold">Proven Success in Yellowstone</h2>
+        <h2 className="inline-block py-3 mb-4 text-3xl font-bold">Proven Success in Yellowstone</h2>
 
         <div className="grid grid-cols-2 text-lg">
           <p>This will be a paragraph</p>
@@ -62,7 +62,7 @@ function IndexPage() {
       <section className="text-center">
         {/* section with text cards, each will have fact with link to further info*/}
         {/* Have at least 3 text cards, do 6 if possible */}
-        <h2 className="inline-block p-3 mb-4 text-3xl font-bold">The facts of wolf reintroduction</h2>
+        <h2 className="inline-block mb-4 text-3xl font-bold">The facts of wolf reintroduction</h2>
         <div>
 
         </div>
@@ -76,6 +76,7 @@ function IndexPage() {
       <section className="text-center">
         {/* List of organizations that support reintroduction? */}
       </section>
+      </div>
     </Layout>
   );
 }
