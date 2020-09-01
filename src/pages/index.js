@@ -3,6 +3,7 @@ import React from "react";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import wolfPackPicture from "../images/two-wolves.png";
+import elkPicture from "../images/elk-yellowstone.png";
 
 function IndexPage() {
   return (
@@ -49,11 +50,12 @@ function IndexPage() {
         <h2 className="inline-block py-3 mb-4 text-3xl font-bold">Proven Success in Yellowstone</h2>
 
         <div className="flex flex-wrap">
-          <div className="w-1/2 sm:w">
-          <p>This will be a paragraph</p>
+          <div className="w-1/2">
+            <h3>Lorem Ipsum</h3>
+            <p>This will be a paragraph</p>
           </div>
           <div className="w-1/2">
-          <p>Here will be a picture</p>
+          <img src={elkPicture}/>
 
           </div>
           <div>
