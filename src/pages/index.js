@@ -4,6 +4,7 @@ import Layout from "../components/layout";
 import SEO from "../components/seo";
 import wolfPackPicture from "../images/two-wolves.png";
 import elkPicture from "../images/elk-yellowstone.png";
+import riverYellowstone from "../images/river-yellowstone.png";
 
 function IndexPage() {
   return (
@@ -52,15 +53,17 @@ function IndexPage() {
         <div className="flex flex-wrap">
           <div className="w-1/2">
             <h3>Lorem Ipsum</h3>
-            <p>This will be a paragraph</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu augue ut lectus arcu bibendum at varius vel pharetra. Felis imperdiet proin fermentum leo. Purus gravida quis blandit turpis cursus in hac habitasse. Nec sagittis aliquam malesuada bibendum. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue eget. Ut sem viverra aliquet eget sit amet tellus. Lobortis scelerisque fermentum dui faucibus in. Morbi tincidunt ornare massa eget egestas purus.</p>
           </div>
           <div className="w-1/2">
-          <img src={elkPicture}/>
-
+            <img src={elkPicture}/>
           </div>
-          <div>
-          <p>This will be a paragraph</p>
-
+          <div className="w-1/2">
+            <img src={riverYellowstone}/>
+          </div>
+          <div className="w-1/2">
+            <h3>Lorem Ipsum</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu augue ut lectus arcu bibendum at varius vel pharetra. Felis imperdiet proin fermentum leo. Purus gravida quis blandit turpis cursus in hac habitasse. Nec sagittis aliquam malesuada bibendum. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue eget. Ut sem viverra aliquet eget sit amet tellus. Lobortis scelerisque fermentum dui faucibus in. Morbi tincidunt ornare massa eget egestas purus.</p>
           </div>
         </div>
       </section>
