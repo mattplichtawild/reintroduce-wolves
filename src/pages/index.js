@@ -73,6 +73,13 @@ function IndexPage() {
         {/* section with text cards, each will have fact with link to further info*/}
         {/* Have at least 3 text cards, do 6 if possible */}
         <h2 className="inline-block mb-4 text-3xl font-bold">The facts of wolf reintroduction</h2>
+        <div className="w-1/3 flex flex-col flex-grow flex-shrink">
+          <div className="flex-1 bg-white">
+            <p>First Card</p>
+            <h4>First Fact</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
         <div>
 
         </div>
