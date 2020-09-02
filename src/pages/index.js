@@ -46,7 +46,7 @@ function IndexPage() {
           </ul>
         </div>
       </section>
-      <div className="bg-white">
+  
       <section className="text-center py-6">
         <h2 className="inline-block py-3 mb-4 text-3xl font-bold">Proven Success in Yellowstone</h2>
         <p className="text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu augue ut lectus arcu bibendum at varius vel pharetra. Felis imperdiet proin fermentum leo. Purus gravida quis blandit turpis cursus in hac habitasse. Nec sagittis aliquam malesuada bibendum. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue eget. Ut sem viverra aliquet eget sit amet tellus. Lobortis scelerisque fermentum dui faucibus in. Morbi tincidunt ornare massa eget egestas purus.</p>
@@ -68,35 +68,51 @@ function IndexPage() {
           </div>
         </div>
       </section>
-      </div>
+
       <section >
-        {/* section with text cards, each will have fact with link to further info*/}
-        {/* Have at least 3 text cards, do 6 if possible */}
         <div className="container flex flex-wrap mx-auto">
-        <h2 className="w-full inline-block mb-4 text-3xl text-center font-bold">The Facts of Wolf Reintroduction</h2>
-        <div className="w-1/3 flex flex-grow flex-shrink p-6">
-          <div className="flex-1 bg-white rounded-t rounded-b shadow p-6">
-            <p>First Card</p>
-            <h4 className="font-semibold pb-1 text-lg">First Fact</h4>
-            <p className="font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <h2 className="w-full inline-block mb-4 text-3xl text-center font-bold">The Facts of Wolf Reintroduction</h2>
+          <div className="w-1/3 flex flex-grow flex-shrink p-6">
+            <div className="flex-1 bg-white rounded-t rounded-b shadow p-6">
+              <h4 className="font-semibold pb-1 text-lg">First Fact</h4>
+              <p className="font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
           </div>
-        </div>
 
-        <div className="w-1/3 flex flex-grow flex-shrink p-6">
-          <div className="flex-1 bg-white rounded-t rounded-b shadow p-6">
-            <p>Second Card</p>
-            <h4 className="font-semibold pb-1 text-lg">Second Fact</h4>
-            <p className="font-light">consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <div className="w-1/3 flex flex-grow flex-shrink p-6">
+            <div className="flex-1 bg-white rounded-t rounded-b shadow p-6">
+              <h4 className="font-semibold pb-1 text-lg">Second Fact</h4>
+              <p className="font-light">consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
           </div>
-        </div>
 
-        <div className="w-1/3 flex flex-grow flex-shrink p-6">
-          <div className="flex-1 bg-white rounded-t rounded-b shadow p-6">
-            <p>Third Card</p>
-            <h4 className="font-semibold pb-1 text-lg">Third Fact</h4>
-            <p className="font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+          <div className="w-1/3 flex flex-grow flex-shrink p-6">
+            <div className="flex-1 bg-white rounded-t rounded-b shadow p-6">
+              <h4 className="font-semibold pb-1 text-lg">Third Fact</h4>
+              <p className="font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            </div>
           </div>
-        </div>
+
+          <div className="w-1/3 flex flex-grow flex-shrink p-6">
+            <div className="flex-1 bg-white rounded-t rounded-b shadow p-6">
+              <h4 className="font-semibold pb-1 text-lg">Fourth Fact</h4>
+              <p className="font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+
+          <div className="w-1/3 flex flex-grow flex-shrink p-6">
+            <div className="flex-1 bg-white rounded-t rounded-b shadow p-6">
+              <h4 className="font-semibold pb-1 text-lg">Fifth Fact</h4>
+              <p className="font-light">consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+          </div>
+
+          <div className="w-1/3 flex flex-grow flex-shrink p-6">
+            <div className="flex-1 bg-white rounded-t rounded-b shadow p-6">
+              <h4 className="font-semibold pb-1 text-lg">Sixth Fact</h4>
+              <p className="font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+            </div>
+          </div>
         </div>
       </section>
 
