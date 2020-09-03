@@ -121,7 +121,7 @@ function IndexPage() {
         <h2 className="w-full inline-block mb-4 py-3 text-3xl text-center font-bold">Experts Support Reintroduction</h2>
         <div className="pr-48 text-justify pb-8">
           <p className="leading-loose tracking-widest text-xl">&quot;The Yellowstone wolf re-establishment project makes clear that we can humanely and cost-effectively translocate wolves from one area to another and successfully reintroduce them. It makes clear, as does decades of reliable research from around the world, that wolves are not a threat to human safety or the livestock and big game hunting industries. It makes clear that co-existing with wolves is a very straightforward affair that requires only a modicum of accommodation on our part.&quot;</p>
-          <p>Mike Phillips - Biologist, Executive Director of Turner Endangered Species Fund, Montana State Senator</p>
+          <p className="text-right">Mike Phillips - Biologist, Executive Director of Turner Endangered Species Fund, Montana State Senator</p>
         </div>
         <div className="pl-48 text-justify pb-8">
           <p className="leading-loose tracking-widest text-xl">&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Etiam dignissim diam quis enim lobortis. Sed risus pretium quam vulputate dignissim suspendisse in est ante. Fermentum leo vel orci porta non. Purus sit amet volutpat consequat mauris nunc congue nisi. Egestas tellus rutrum tellus pellentesque eu tincidunt. Purus in mollis nunc sed id semper risus in. Eget velit aliquet sagittis id consectetur purus ut. Egestas maecenas pharetra convallis posuere morbi leo. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula ipsum. Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam. Nunc mattis enim ut tellus elementum sagittis vitae et leo.&quot;</p>
@@ -132,6 +132,12 @@ function IndexPage() {
       <section className="text-center py-6">
         <h2 className="w-full inline-block mb-4 py-3 text-3xl text-center font-bold">The Opposition</h2>
         {/* attack the opposing organization here */}
+        <div className="text-2xl text-justify px-32">
+          <p className="py-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Etiam dignissim diam quis enim lobortis. Sed risus pretium quam vulputate dignissim suspendisse in est ante. </p>
+          <p className="py-4">Fermentum leo vel orci porta non. Purus sit amet volutpat consequat mauris nunc congue nisi. Egestas tellus rutrum tellus pellentesque eu tincidunt. Purus in mollis nunc sed id semper risus in. Eget velit aliquet sagittis id consectetur purus ut. Egestas maecenas pharetra convallis posuere morbi leo. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula ipsum.</p>
+          <p className="py-4">Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam. Nunc mattis enim ut tellus elementum sagittis vitae et leo.</p>
+          <p className="py-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Velit euismod in pellentesque massa placerat duis ultricies lacus sed. Nunc sed blandit libero volutpat sed cras ornare arcu dui.</p>
+        </div>
       </section>
       </div>
     </Layout>
