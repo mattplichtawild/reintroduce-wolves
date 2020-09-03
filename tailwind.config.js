@@ -1,6 +1,15 @@
 // See https://tailwindcss.com/docs/configuration for details
 module.exports = {
-    
+    theme: {
+      extend: {
+        colors: {
+          primary: '#002868',
+          secondary: '#BF0A30',
+          tertiary: '#FFD700',
+          background: '#FFFFFF'
+        }
+      }
+    },
     future: {
       removeDeprecatedGapUtilities: true,
     },

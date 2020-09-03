@@ -5,9 +5,9 @@ const fullConfig = resolveConfig(tailwindConfig);
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Tailwind`,
-    description: `Gatsby starter styled with Tailwind`,
-    author: `@taylorbryant`,
+    title: `Restore the Wolves`,
+    description: `Support wolf reintroduction by voting YES on Proposition 114`,
+    author: `Matt Plichta`,
   },
   plugins: [
     `gatsby-plugin-eslint`,
@@ -15,13 +15,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-tailwind`,
-        short_name: `starter`,
+        name: `reintroduce-wolves`,
+        short_name: `reintroduce-wolves`,
         start_url: `/`,
         background_color: fullConfig.theme.colors.white,
         theme_color: fullConfig.theme.colors.teal["400"],
         display: `minimal-ui`,
-        icon: `src/images/tailwind-icon.png`,
+        icon: `src/images/colorado-c.png`,
       },
     },
     {
