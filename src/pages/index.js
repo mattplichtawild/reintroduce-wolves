@@ -20,12 +20,13 @@ function IndexPage() {
           src={wolfPackPicture}
       />
       <div className="px-32">
-      <section className="text-center py-6">
-        <p className="leading-loose md:text-lg lg:text-xl font-sans mb-4">
-          As Coloradans, we pride ourselves on the natural beauty of the state. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
-      </section>
-
+        <section className="text-center py-6">
+          <p className="leading-loose md:text-lg lg:text-xl font-sans mb-4">
+            As Coloradans, we pride ourselves on the natural beauty of the state. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
+        </section>
+      </div>
+      <div className="px-32">
       <section className="text-center py-6">
         <h2 className="inline-block py-3 mb-4 text-3xl font-bold">
           About Proposition 114
@@ -46,10 +47,11 @@ function IndexPage() {
           </ul>
         </div>
       </section>
-  
+      </div>
+      <div className="bg-white">
       <section className="text-center py-6">
         <h2 className="inline-block py-3 mb-4 text-3xl font-bold">Proven Success in Yellowstone</h2>
-        <p className="text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu augue ut lectus arcu bibendum at varius vel pharetra. Felis imperdiet proin fermentum leo. Purus gravida quis blandit turpis cursus in hac habitasse. Nec sagittis aliquam malesuada bibendum. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue eget. Ut sem viverra aliquet eget sit amet tellus. Lobortis scelerisque fermentum dui faucibus in. Morbi tincidunt ornare massa eget egestas purus.</p>
+        <p className="text-lg px-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu augue ut lectus arcu bibendum at varius vel pharetra. Felis imperdiet proin fermentum leo. Purus gravida quis blandit turpis cursus in hac habitasse. Nec sagittis aliquam malesuada bibendum. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue eget. Ut sem viverra aliquet eget sit amet tellus. Lobortis scelerisque fermentum dui faucibus in. Morbi tincidunt ornare massa eget egestas purus.</p>
 
         <div className="flex flex-wrap text-xl text-justify py-8">
           <div className="w-1/2 px-8">
@@ -68,7 +70,8 @@ function IndexPage() {
           </div>
         </div>
       </section>
-
+      </div>
+      <div className="px-32">
       <section className="py-6">
         <div className="container flex flex-wrap mx-auto">
           <h2 className="w-full inline-block mb-4 text-3xl text-center font-bold">The Facts On Wolves</h2>
@@ -115,9 +118,9 @@ function IndexPage() {
           </div>
         </div>
       </section>
-
+      </div>
+      <div className="px-32">
       <section className="py-6">
-        {/* Section with quotes from experts who support reintroduction */}
         <h2 className="w-full inline-block mb-4 py-3 text-3xl text-center font-bold">Experts Support Reintroduction</h2>
         <div className="pr-48 text-justify pb-8">
           <p className="leading-loose tracking-widest text-xl">&quot;The Yellowstone wolf re-establishment project makes clear that we can humanely and cost-effectively translocate wolves from one area to another and successfully reintroduce them. It makes clear, as does decades of reliable research from around the world, that wolves are not a threat to human safety or the livestock and big game hunting industries. It makes clear that co-existing with wolves is a very straightforward affair that requires only a modicum of accommodation on our part.&quot;</p>
@@ -128,7 +131,8 @@ function IndexPage() {
           <p>That One Guy - Wildlife Expert</p>
         </div>
       </section>
-
+      </div>
+      <div className="px-32">
       <section className="text-center py-6">
         <h2 className="w-full inline-block mb-4 py-3 text-3xl text-center font-bold">The Opposition</h2>
         {/* attack the opposing organization here */}
@@ -138,6 +142,13 @@ function IndexPage() {
           <p className="py-4">Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam. Nunc mattis enim ut tellus elementum sagittis vitae et leo.</p>
           <p className="py-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Velit euismod in pellentesque massa placerat duis ultricies lacus sed. Nunc sed blandit libero volutpat sed cras ornare arcu dui.</p>
         </div>
+      </section>
+      </div>
+      <div className="w-full bg-gray-300 p-12">
+      <section className="w-full inline block mb-4 text-3xl text-center font-bold">
+        <h2 className="p-4">Support Colorado&lsquo;s Ecology</h2>
+        <p className="p-4">Support Wolf Reintroduction</p>
+        <p className="p-4 text-6xl">Vote <span className="text-red-600 border-red-600">YES</span> on Prop 114</p>
       </section>
       </div>
     </Layout>
