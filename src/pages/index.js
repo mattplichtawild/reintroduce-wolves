@@ -19,7 +19,7 @@ function IndexPage() {
           className="bg-cover bg-center"
           src={wolfPackPicture}
       />
-      <div className="px-32">
+      <div className="px-32 bg-tertiary">
         <section className="text-center py-6">
           <p className="leading-loose md:text-lg lg:text-xl font-sans mb-4">
             As Coloradans, we pride ourselves on the natural beauty of the state. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -119,8 +119,8 @@ function IndexPage() {
         </div>
       </section>
       </div>
-      <div className="px-32">
-      <section className="py-6">
+      <div className="px-32 bg-blue-600">
+      <section className="py-6 text-gray-100">
         <h2 className="w-full inline-block mb-4 py-3 text-3xl text-center font-bold">Experts Support Reintroduction</h2>
         <div className="pr-48 text-justify pb-8">
           <p className="leading-loose tracking-widest text-xl">&quot;The Yellowstone wolf re-establishment project makes clear that we can humanely and cost-effectively translocate wolves from one area to another and successfully reintroduce them. It makes clear, as does decades of reliable research from around the world, that wolves are not a threat to human safety or the livestock and big game hunting industries. It makes clear that co-existing with wolves is a very straightforward affair that requires only a modicum of accommodation on our part.&quot;</p>
@@ -148,7 +148,7 @@ function IndexPage() {
       <section className="w-full inline block mb-4 text-3xl text-center font-bold">
         <h2 className="p-4">Support Colorado&lsquo;s Ecology</h2>
         <p className="p-4">Support Wolf Reintroduction</p>
-        <p className="p-4 text-6xl">Vote <span className="text-red-600 border-red-600">YES</span> on Prop 114</p>
+        <p className="p-4 text-6xl">Vote <span className="text-secondary border-4 border-secondary px-2">YES</span> on Prop 114</p>
       </section>
       </div>
     </Layout>

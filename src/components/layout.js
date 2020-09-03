@@ -14,28 +14,19 @@ function Layout({ children }) {
         {children}
       </main>
 
-      <footer className="bg-blue-700">
+      <footer className="bg-primary">
         <nav className="flex justify-between max-w-4xl p-4 mx-auto text-sm md:p-8">
-          <p className="text-white">
-            Created by{` `}
-            <a
-              className="font-bold no-underline"
-              href="https://bryant.io"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Taylor Bryant
-            </a>
-          </p>
-
+          <div className="border border-white rounded-sm p-1">
+          <p className="text-white">Paid for and created by Matt Plichta</p>
+          </div>
           <p>
             <a
               className="font-bold text-white no-underline"
-              href="https://github.com/taylorbryant/gatsby-starter-tailwind"
+              href="mailto:mattplichtawild@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
             >
-              GitHub
+              Contact
             </a>
           </p>
         </nav>
