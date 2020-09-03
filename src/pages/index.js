@@ -27,7 +27,7 @@ function IndexPage() {
         </section>
       </div>
       <div className="px-32">
-      <section className="text-center py-6">
+      <section id="about" className="text-center py-6">
         <h2 className="inline-block py-3 mb-4 text-3xl font-bold">
           About Proposition 114
         </h2>
@@ -49,7 +49,7 @@ function IndexPage() {
       </section>
       </div>
       <div className="bg-white">
-      <section className="text-center py-6">
+      <section id="proven-success" className="text-center py-6">
         <h2 className="inline-block py-3 mb-4 text-3xl font-bold">Proven Success in Yellowstone</h2>
         <p className="text-lg px-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu augue ut lectus arcu bibendum at varius vel pharetra. Felis imperdiet proin fermentum leo. Purus gravida quis blandit turpis cursus in hac habitasse. Nec sagittis aliquam malesuada bibendum. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue eget. Ut sem viverra aliquet eget sit amet tellus. Lobortis scelerisque fermentum dui faucibus in. Morbi tincidunt ornare massa eget egestas purus.</p>
 
@@ -72,46 +72,46 @@ function IndexPage() {
       </section>
       </div>
       <div className="px-32">
-      <section className="py-6">
+      <section id="facts" className="py-6">
         <div className="container flex flex-wrap mx-auto">
           <h2 className="w-full inline-block mb-4 text-3xl text-center font-bold">The Facts On Wolves</h2>
           <div className="w-1/3 flex flex-grow flex-shrink p-6">
-            <div className="flex-1 bg-white rounded-t rounded-b shadow p-6">
+            <div className="flex-1 bg-white rounded-t rounded-b shadow-lg p-6">
               <h4 className="font-semibold pb-1 text-lg">First Fact</h4>
               <p className="font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
           </div>
 
           <div className="w-1/3 flex flex-grow flex-shrink p-6">
-            <div className="flex-1 bg-white rounded-t rounded-b shadow p-6">
+            <div className="flex-1 bg-white rounded-t rounded-b shadow-lg p-6">
               <h4 className="font-semibold pb-1 text-lg">Second Fact</h4>
               <p className="font-light">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
           </div>
 
           <div className="w-1/3 flex flex-grow flex-shrink p-6">
-            <div className="flex-1 bg-white rounded-t rounded-b shadow p-6">
+            <div className="flex-1 bg-white rounded-t rounded-b shadow-lg p-6">
               <h4 className="font-semibold pb-1 text-lg">Third Fact</h4>
               <p className="font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
             </div>
           </div>
 
           <div className="w-1/3 flex flex-grow flex-shrink p-6">
-            <div className="flex-1 bg-white rounded-t rounded-b shadow p-6">
+            <div className="flex-1 bg-white rounded-t rounded-b shadow-lg p-6">
               <h4 className="font-semibold pb-1 text-lg">Fourth Fact</h4>
               <p className="font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
           </div>
 
           <div className="w-1/3 flex flex-grow flex-shrink p-6">
-            <div className="flex-1 bg-white rounded-t rounded-b shadow p-6">
+            <div className="flex-1 bg-white rounded-t rounded-b shadow-lg p-6">
               <h4 className="font-semibold pb-1 text-lg">Fifth Fact</h4>
               <p className="font-light"> Lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
           </div>
 
           <div className="w-1/3 flex flex-grow flex-shrink p-6">
-            <div className="flex-1 bg-white rounded-t rounded-b shadow p-6">
+            <div className="flex-1 bg-white rounded-t rounded-b shadow-lg p-6">
               <h4 className="font-semibold pb-1 text-lg">Sixth Fact</h4>
               <p className="font-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
@@ -120,20 +120,20 @@ function IndexPage() {
       </section>
       </div>
       <div className="px-32 bg-blue-600">
-      <section className="py-6 text-gray-100">
+      <section id="experts" className="py-6 text-gray-100">
         <h2 className="w-full inline-block mb-4 py-3 text-3xl text-center font-bold">Experts Support Reintroduction</h2>
-        <div className="pr-48 text-justify pb-8">
+        <div className="px-32 text-justify pb-12">
           <p className="leading-loose tracking-widest text-xl">&quot;The Yellowstone wolf re-establishment project makes clear that we can humanely and cost-effectively translocate wolves from one area to another and successfully reintroduce them. It makes clear, as does decades of reliable research from around the world, that wolves are not a threat to human safety or the livestock and big game hunting industries. It makes clear that co-existing with wolves is a very straightforward affair that requires only a modicum of accommodation on our part.&quot;</p>
           <p className="text-right">Mike Phillips - Biologist, Executive Director of Turner Endangered Species Fund, Montana State Senator</p>
         </div>
-        <div className="pl-48 text-justify pb-8">
+        <div className="px-32 text-justify pb-8">
           <p className="leading-loose tracking-widest text-xl">&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Etiam dignissim diam quis enim lobortis. Sed risus pretium quam vulputate dignissim suspendisse in est ante. Fermentum leo vel orci porta non. Purus sit amet volutpat consequat mauris nunc congue nisi. Egestas tellus rutrum tellus pellentesque eu tincidunt. Purus in mollis nunc sed id semper risus in. Eget velit aliquet sagittis id consectetur purus ut. Egestas maecenas pharetra convallis posuere morbi leo. Sollicitudin nibh sit amet commodo nulla facilisi nullam vehicula ipsum. Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam. Nunc mattis enim ut tellus elementum sagittis vitae et leo.&quot;</p>
-          <p>That One Guy - Wildlife Expert</p>
+          <p className="text-right">That One Guy - Wildlife Expert</p>
         </div>
       </section>
       </div>
       <div className="px-32">
-      <section className="text-center py-6">
+      <section id="opposition" className="text-center py-6">
         <h2 className="w-full inline-block mb-4 py-3 text-3xl text-center font-bold">The Opposition</h2>
         {/* attack the opposing organization here */}
         <div className="text-2xl text-justify px-32">

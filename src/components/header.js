@@ -56,16 +56,28 @@ function Header() {
         >
           {[
             {
-              route: `/about`,
+              route: `/#about`,
               title: `About`,
             },
             {
-              route: `/contact`,
-              title: `Contact`,
+              route: `/#proven-success`,
+              title: `A Proven Success`,
             },
+            {
+              route: '/#facts',
+              title: 'The Facts',
+            },
+            {
+              route: '/#experts',
+              title: 'Experts on 114',
+            },
+            {
+              route: '/#opposition',
+              title: 'The Opposition',
+            }
           ].map((link) => (
             <Link
-              className="block mt-4 text-white no-underline md:inline-block md:mt-0 md:ml-6"
+              className="block mt-4 text-white font-light tracking-wide no-underline md:inline-block md:mt-0 md:ml-6"
               key={link.title}
               to={link.route}
             >
