@@ -19,7 +19,7 @@ function IndexPage() {
           className="bg-cover bg-center"
           src={wolfPackPicture}
       />
-      <div className="px-6 md:px-20 lg:px-32 bg-tertiary">
+      <div className="px-6 md:px-20 lg:px-32 bg-tertiary bg-opacity-80">
         <section className="text-center py-6">
           <p className="text-sm md:leading-loose md:text-lg lg:text-xl font-sans mb-4">
             As Coloradans, we pride ourselves on the natural beauty of the state. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -145,7 +145,7 @@ function IndexPage() {
       </section>
       </div>
       <div className="w-full bg-gray-300 p-12">
-      <section className="w-full inline block mb-4 text-3xl text-center font-bold">
+      <section className="w-full inline block mb-4 text-3xl xl:text-5xl text-center font-bold">
         <h2 className="py-4">Support Colorado&lsquo;s Ecology</h2>
         <p className="py-4">Support Wolf Reintroduction</p>
         <p className="py-4 text-6xl">Vote <span className="text-secondary border-4 border-secondary px-2">YES</span> on Proposition 114</p>
