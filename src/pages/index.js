@@ -51,12 +51,12 @@ function IndexPage() {
       <div className="bg-white">
       <section id="proven-success" className="py-6 text-center">
         <h2 className="inline-block py-3 mb-4 text-3xl font-bold">Proven Success in Yellowstone</h2>
-        <p className="md:text-lg px-6 md:px-20 lg:px-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu augue ut lectus arcu bibendum at varius vel pharetra. Felis imperdiet proin fermentum leo. Purus gravida quis blandit turpis cursus in hac habitasse. Nec sagittis aliquam malesuada bibendum. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue eget. Ut sem viverra aliquet eget sit amet tellus. Lobortis scelerisque fermentum dui faucibus in. Morbi tincidunt ornare massa eget egestas purus.</p>
+        <p className="md:text-lg px-6 md:px-20 lg:px-32">Paragraph that summarizes trophic cascade. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu augue ut lectus arcu bibendum at varius vel pharetra. Felis imperdiet proin fermentum leo. Purus gravida quis blandit turpis cursus in hac habitasse. Nec sagittis aliquam malesuada bibendum. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue eget. Ut sem viverra aliquet eget sit amet tellus. Lobortis scelerisque fermentum dui faucibus in. Morbi tincidunt ornare massa eget egestas purus.</p>
 
         <div className="flex flex-wrap text-sm lg:text-xl py-8">
           <div className="md:w-1/2 px-8">
-            <h3 className="font-semibold lg:pb-4">Lorem Ipsum</h3>
-            <p className="md:text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu augue ut lectus arcu bibendum at varius vel pharetra. Felis imperdiet proin fermentum leo. Purus gravida quis blandit turpis cursus in hac habitasse. Nec sagittis aliquam malesuada bibendum. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue eget. Ut sem viverra aliquet eget sit amet tellus. Lobortis scelerisque fermentum dui faucibus in. Morbi tincidunt ornare massa eget egestas purus.</p>
+            <h3 className="font-semibold lg:pb-4">A Natural Balance</h3>
+            <p className="md:text-justify">Paragraph summarizing how wolves bring balance by keeping other species from overpopulating. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu augue ut lectus arcu bibendum at varius vel pharetra. Felis imperdiet proin fermentum leo. Purus gravida quis blandit turpis cursus in hac habitasse. Nec sagittis aliquam malesuada bibendum. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue eget. Ut sem viverra aliquet eget sit amet tellus. Lobortis scelerisque fermentum dui faucibus in. Morbi tincidunt ornare massa eget egestas purus.</p>
           </div>
           <div className="md:w-1/2">
             <img src={elkPicture}/>
@@ -65,8 +65,15 @@ function IndexPage() {
             <img src={riverYellowstone}/>
           </div>
           <div className="md:w-1/2 px-8">
-            <h3 className="text-center font-semibold lg:pb-4">Lorem Ipsum</h3>
-            <p className="md:text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu augue ut lectus arcu bibendum at varius vel pharetra. Felis imperdiet proin fermentum leo. Purus gravida quis blandit turpis cursus in hac habitasse. Nec sagittis aliquam malesuada bibendum. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue eget. Ut sem viverra aliquet eget sit amet tellus. Lobortis scelerisque fermentum dui faucibus in. Morbi tincidunt ornare massa eget egestas purus.</p>
+            <h3 className="text-center font-semibold lg:pb-4">Benefit to Forests and Rivers</h3>
+            <p className="md:text-justify">Summarize how trophic cascade trickles all the way down to helping restore rivers and vegetation. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu augue ut lectus arcu bibendum at varius vel pharetra. Felis imperdiet proin fermentum leo. Purus gravida quis blandit turpis cursus in hac habitasse. Nec sagittis aliquam malesuada bibendum. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue eget. Ut sem viverra aliquet eget sit amet tellus. Lobortis scelerisque fermentum dui faucibus in. Morbi tincidunt ornare massa eget egestas purus.</p>
+            <br/>
+            <ul>Resources to use for this section:
+              <li><a className="text-blue underline" href="https://www.yellowstonepark.com/things-to-do/wolf-reintroduction-changes-ecosystem" target="_blank" rel="noreferrer">Wolf Reintroduction Changes Ecosystem in Yellowstone</a></li>
+              <li><a className="text-blue underline" href="https://www.yellowstonepark.com/news/yellowstone-is-wolf-country-once-again" target="_blank" rel="noreferrer">Changes Seen a Decade After Yellowstones Wolf Reintroduction</a></li>
+              <li><a className="text-blue underline" href="https://www.yellowstonepark.com/things-to-do/wolves-bring-yellowstone-back" target="_blank" rel="noreferrer">Wolves Bring Aspen Trees Back</a></li>
+            </ul>
+            <p className="md:text-justify"></p>
           </div>
         </div>
       </section>
