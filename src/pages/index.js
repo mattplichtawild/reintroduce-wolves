@@ -14,9 +14,9 @@ function IndexPage() {
         title="Home"
       />
       
-      <div className="bg-local bg-auto bg-center" style={{ backgroundImage:`url(${wolfPackPicture})`}}>
+      <div className="h-screen bg-local bg-cover bg-center" style={{ backgroundImage:`url(${wolfPackPicture})`}}>
         <div className="max-height">
-        <h1 className="inline-block">Restore Colorado Ecology</h1>
+        <h1>Restore Colorado Ecology</h1>
         <h1>Restore the Wolves</h1>
         </div>
       </div>
