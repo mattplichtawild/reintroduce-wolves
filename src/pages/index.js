@@ -13,16 +13,14 @@ function IndexPage() {
         keywords={[`wolf`, `reintroduction`, `Colorado`, `prop`, `114`]}
         title="Home"
       />
-      {/* <div className="bg-cover bg-center" style={{backgroundImage: `url(${wolfPackPicture})`}}></div> */}
-      <div className="bg-local" style={{ backgroundImage:`url(${wolfPackPicture})`}}>
+      
+      <div className="bg-local bg-auto bg-center" style={{ backgroundImage:`url(${wolfPackPicture})`}}>
+        <div className="max-height">
         <h1 className="inline-block">Restore Colorado Ecology</h1>
         <h1>Restore the Wolves</h1>
+        </div>
       </div>
-      <img
-          alt="Wolves running through wilderness."
-          className="bg-cover bg-center"
-          src={wolfPackPicture}
-      />
+   
       <div className="px-6 md:px-20 lg:px-32 bg-tertiary bg-opacity-80">
         <section className="text-center py-6">
           <p className="text-sm md:leading-loose md:text-lg lg:text-xl font-sans mb-4">
