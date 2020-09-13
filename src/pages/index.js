@@ -6,6 +6,7 @@ import wolfPackPicture from "../images/two-wolves.png";
 import elkPicture from "../images/elk-yellowstone.png";
 import riverYellowstone from "../images/river-yellowstone.png";
 
+
 function IndexPage() {
   return (
     <Layout>
@@ -15,7 +16,7 @@ function IndexPage() {
       />
       
       <div className="h-screen bg-local bg-cover bg-center" style={{ backgroundImage:`url(${wolfPackPicture})`}}>
-        <div className="h-full">
+        <div className="h-full pt-20">
           <div className="uppercase text-4xl text-gray-300 font-medium tracking-widest p-6">
             <h1>Restore Colorado&lsquo;s Ecology</h1>
             <br/>
