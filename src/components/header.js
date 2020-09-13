@@ -17,7 +17,7 @@ function Header() {
   `);
 
   return (
-    <header className="bg-primary">
+    <header className="bg-primary bg-opacity-75 fixed w-full">
       <div className="flex flex-wrap items-center justify-between max-w-6xl p-8 mx-auto">
         <Link to="/">
           {/* <img className="object-scale-down" src={RestoreWolvesLogo} alt="logo" /> */}
