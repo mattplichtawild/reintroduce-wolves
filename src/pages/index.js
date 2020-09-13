@@ -14,6 +14,8 @@ function IndexPage() {
         title="Home"
       />
       {/* <div className="bg-cover bg-center" style={{backgroundImage: `url(${wolfPackPicture})`}}></div> */}
+      <h1 className="inline-block">Restore Colorado Ecology</h1>
+      <h1>Restore the Wolves</h1>
       <img
           alt="Wolves running through wilderness."
           className="bg-cover bg-center"
